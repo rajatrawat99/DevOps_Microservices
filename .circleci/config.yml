@@ -9,6 +9,9 @@ jobs:
       # Use the same Docker base as the project
       - image: python:3.7.3-stretch
 
+    repo/
+      - project-ml-microservice-kubernetes
+
     working_directory: ~/repo
 
     steps:
